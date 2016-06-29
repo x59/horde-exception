@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-exception",
+    "name": "x59/horde-exception",
     "description": "Horde Exception Handler",
     "type": "library",
     "homepage": "https://pear.horde.org",
@@ -23,17 +23,14 @@
     ],
     "version": "2.0.8",
     "time": "2016-03-21",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
+    "autoload": {
+        "classmap": "lib/"
+    },
     "require": {
         "php": ">=5.3.0,<=8.0.0alpha1",
-        "pear-pear.horde.org/Horde_Translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
+        "x59/horde-translation": ">=2.2.0@stable,<=3.0.0alpha1@stable"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+        "x59/horde-test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
     }
 }
